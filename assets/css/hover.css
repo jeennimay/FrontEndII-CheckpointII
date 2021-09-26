@@ -1,0 +1,12 @@
+a:hover{
+    text-decoration: underline;
+    color: rgb(245, 245, 245);
+    /* color: #A6372D; */
+}
+div.card:hover, div.to-do-div:hover, button:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}
+div.criar-tarefa input:hover, div.criar-tarefa input:focus{
+    border-color: rgb(255, 208, 0);
+}

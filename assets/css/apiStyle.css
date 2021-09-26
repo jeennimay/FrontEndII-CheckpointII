@@ -1,0 +1,31 @@
+main section{
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+}
+section div h2{
+    text-align: center;
+}
+
+div.card{
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80%;
+    min-height: 2rem;
+}
+.completo div.card{
+    background-color: #253140;
+    color: rgb(245, 245, 245);
+    text-decoration: line-through;
+}
+
+.tarefa div.card{
+    background-color: #61788C;
+}

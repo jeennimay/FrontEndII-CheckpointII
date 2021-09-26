@@ -1,0 +1,82 @@
+/* DIV CRIAR TAREFRA */
+main div.criar-tarefa{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.criar-tarefa label{
+    display: block;         /* DISPOSIAÇÃO EM BLOCO, PARA OCUPAR TODA LINHA */
+    width: 40%;             /* largura dos inputs */
+    margin: 0 auto;       /* MARGEM */
+}
+
+/* ESTILIZAÇÃO INPUT*/
+div.criar-tarefa input{
+    display: block;         /* DISPOSIAÇÃO EM BLOCO, PARA OCUPAR TODA LINHA */
+    margin: 0.5rem auto;       /* MARGEM */
+    width: 40%;             /* largura dos inputs */
+    min-height: 2rem;       /* ALTURA MÍNIMA DE 2REM */
+    padding: 0 1.8rem;        /* MARGEM INTERNA, PARA DIREITA E ESQUERDA (RIGTH AND LEFT) */
+    border: solid 2px transparent;      /* ESTILO DE BORDA */
+    border-radius: 0.5rem;    /* ARREDONDAMENTO DAS BORDAS */
+    font-family: 'Besley', serif;   /* FONTE */
+    font-weight: 600;       /* PESO DA FONTE */
+    outline: none;          /* SEM OUTILINE, QUANDO O ELEMENTO ESTÁ EM FOCO, NÃO FICA ACAIXA PRETA EM VOLTA */
+    background-color: #A8B5BF;      /* COR DE FUNDO */
+}
+
+/* BUTTON */
+main div.criar-tarefa button{
+    width: 2rem;        /* LARGURA DO BOTÃO */
+    height: 2rem ;          /* ALTURA*/
+    margin: 0 auto;
+}
+/* DIV TODOS OS CARDS */
+div.todo-list{
+    display: flex;
+    justify-content: center;
+}
+div.todo-list div.todo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem auto;
+}
+
+/* DIV TO-DO (CARD) */
+div.to-do-div{
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    min-height: 2rem;
+    margin: 1rem auto;
+}
+
+div.to-do-div p {
+    opacity: 0.5;
+    font-size: 0.8rem;
+    text-align: center;
+    display: inline-block;
+    margin: 0.4rem 1rem;
+}
+
+div#todo div.to-do-div{
+    background-color: #61788C;
+}
+
+div#completed div.to-do-div{
+    background-color: #253140;
+    color: rgb(245, 245, 245);
+    text-decoration: line-through;
+}
+
+div.to-do-div div.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+div.buttons button{
+    margin: 0.5rem 0.3rem 0;
+}
