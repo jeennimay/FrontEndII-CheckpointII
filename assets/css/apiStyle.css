@@ -1,31 +1,30 @@
 main section{
-    display: flex;
-    justify-content: center;
+    display: flex;              /* disposição flex (permite linha ou bloco, e alinhamento atraves do justify-content e align-content) */
+    justify-content: center;    /* ALINHAMENTO HORIZONTAL - CENTRALIZADO */
 }
 
 section div{
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 0 auto;
+    margin: 0.5rem auto;             /* MARGEM */
+    display: flex;              /* disposição flex (permite linha ou bloco, e alinhamento atraves do justify-content e align-content) */
+    flex-direction: column;     /* DISPOSIÇÃO EM COLUNA */
+    gap: 1rem;                  /* GAP - DISTÂNCIA ENTRE AS COLUNAS */
 }
 section div h2{
-    text-align: center;
+    text-align: center;     /* ALINHAMENTO DO TEXTO - CENTRALIZADO */
 }
 
 div.card{
-    border-radius: 1rem;
-    padding: 1rem;
-    width: 80%;
-    min-height: 2rem;
+    border-radius: 1rem;    /* BORDA ARREDONDADA */
+    padding: 1rem;          /* MARGEM INTERNA*/
+    width: 80%;             /* LARGURA */
+    min-height: 2rem;       /* ALTURA MINIMA */
 }
 .completo div.card{
-    background-color: #253140;
-    color: rgb(245, 245, 245);
-    text-decoration: line-through;
+    background-color: #253140;        /* COR DE FUNDO */
+    color: rgb(245, 245, 245);          /* COR DO TEXTO */
+    text-decoration: line-through;      /* TEXTO TACHADO */
 }
 
 .tarefa div.card{
-    background-color: #61788C;
+    background-color: #61788C;      /* COR DE FUNDO */
 }

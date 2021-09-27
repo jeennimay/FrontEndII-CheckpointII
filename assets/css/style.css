@@ -1,9 +1,9 @@
 /* DIV CRIAR TAREFRA */
-main div.criar-tarefa{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+main div.criar-tarefa{ 
+    margin: 0 auto;             /* MARGEM */
+    display: flex;              /* disposição flex (permite linha ou bloco, e alinhamento atraves do justify-content e align-content) */
+    flex-direction: column;     /* DISPOSIÇÃO EM COLUNA */
+    justify-content: center;    /* ALINHAMENTO HORIZONTAL - CENTRALIZADO */
 }
 div.criar-tarefa label{
     display: block;         /* DISPOSIAÇÃO EM BLOCO, PARA OCUPAR TODA LINHA */
@@ -30,53 +30,53 @@ div.criar-tarefa input{
 main div.criar-tarefa button{
     width: 2rem;        /* LARGURA DO BOTÃO */
     height: 2rem ;          /* ALTURA*/
-    margin: 0 auto;
+    margin: 0 auto;         /* MARGEM */
 }
 /* DIV TODOS OS CARDS */
 div.todo-list{
-    display: flex;
-    justify-content: center;
+    display: flex;                  /* disposição flex (permite linha ou bloco, e alinhamento atraves do justify-content e align-content) */
+    justify-content: center;        /* ALINHAMENTO HORIZONTAL - CENTRALIZADO */
 }
 div.todo-list div.todo{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem auto;
+    display: flex;                  /* disposição flex (permite linha ou bloco, e alinhamento atraves do justify-content e align-content) */
+    flex-direction: column;         /* DISPOSIÇÃO EM COLUNA */
+    gap: 1rem;                      /* GAP - DISTÂNCIA ENTRE AS COLUNAS */
+    margin: 1rem auto;              /* MARGEM */
 }
 
 /* DIV TO-DO (CARD) */
 div.to-do-div{
-    border-radius: 1rem;
-    padding: 1rem;
-    width: 100%;
-    min-height: 2rem;
-    margin: 1rem auto;
+    border-radius: 1rem;    /* BORDA ARREDONDADA */
+    padding: 1rem;          /* MARGEM INTERNA */
+    width: 100%;            /* LARGURA */
+    min-height: 2rem;       /* ALTURA MINIMA */
+    margin: 1rem auto;      /* MARGEM */
 }
 
 div.to-do-div p {
-    opacity: 0.5;
-    font-size: 0.8rem;
-    text-align: center;
-    display: inline-block;
-    margin: 0.4rem 1rem;
+    opacity: 0.5;               /* OPACIDADE */
+    font-size: 0.8rem;          /* TAMANHO DA FONTE */
+    text-align: center;         /* ALINHAMENTO DE TEXO - CENTRALIZADO */
+    display: inline-block;      /* DISPOSIÇÃO EM LINHA-BLOCO */
+    margin: 0.4rem 1rem;        /* MARGEM */
 }
 
 div#todo div.to-do-div{
-    background-color: #61788C;
+    background-color: #61788C;      /* COR DE FUNDO */
 }
 
 div#completed div.to-do-div{
-    background-color: #253140;
-    color: rgb(245, 245, 245);
-    text-decoration: line-through;
+    background-color: #253140;      /* COR DE FUNDO */
+    color: rgb(245, 245, 245);      /* COR DO TEXTO */
+    text-decoration: line-through;      /* TEXTO TACHADO */
 }
 
 div.to-do-div div.buttons{
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+    display: flex;              /* disposição flex (permite linha ou bloco, e alinhamento atraves do justify-content e align-content) */
+    justify-content: center;    /* ALINHAMENTO HORIZONTAL - CENTRALIZADO */    
+    flex-wrap: nowrap;          /* SEM QUEBRA DE LINHA */
 }
 
 div.buttons button{
-    margin: 0.5rem 0.3rem 0;
+    margin: 0.5rem 0.3rem 0;    /* MARGEM */
 }

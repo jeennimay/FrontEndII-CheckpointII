@@ -1,12 +1,11 @@
 a:hover{
-    text-decoration: underline;
-    color: rgb(245, 245, 245);
-    /* color: #A6372D; */
+    text-decoration: underline;       /* TEXTO SUBLINHADO */
+    color: rgb(245, 245, 245);      /* COR DO TEXTO */
 }
 div.card:hover, div.to-do-div:hover, button:hover{
-    transition: .2s;
-    transform: scale(1.2);
+    transition: .2s;                /* TEMPO DA TRANSIÇÃO */
+    transform: scale(1.2);          /* AUMENTAR O ELEMENTO */
 }
 div.criar-tarefa input:hover, div.criar-tarefa input:focus{
-    border-color: rgb(255, 208, 0);
+    border-color: rgb(255, 208, 0);     /* COR DA BORDA */
 }
