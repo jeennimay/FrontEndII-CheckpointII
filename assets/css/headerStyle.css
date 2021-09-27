@@ -79,6 +79,10 @@ main{
     margin-top: 5rem;           /* MARGEM SUPERIOR */
 }
 
+footer{
+    width: 100%;                /* LARGURA */
+}
+
 footer p{
     text-align: center;         /* ALINHAMENTO DE TEXTO - CENTRALIZADO */
 }
