@@ -78,3 +78,7 @@ header a{
 main{
     margin-top: 5rem;           /* MARGEM SUPERIOR */
 }
+
+footer p{
+    text-align: center;         /* ALINHAMENTO DE TEXTO - CENTRALIZADO */
+}
